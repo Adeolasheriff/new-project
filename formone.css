@@ -1,0 +1,124 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+}
+a{
+    font-size: 20px; 
+    padding: 20px;
+    color: #333;
+}
+
+header .navbar ul{
+    list-style:none;
+}
+header .navbar ul li {
+position: relative;
+float: left;
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    background: #333;
+    color: white;
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 100px;
+    display: none;
+    background: white;
+}
+
+header .navbar ul li ul li ul li {
+    left: 100px;
+    top: -40px;
+    width: 150px;
+}
+
+
+header .navbar ul li ul li{
+   width: 100%;
+   border-top:  1px solid rgba(0, 0, 0, 0.346);
+}
+
+header .navbar ul li:hover>ul{
+    display: initial;
+} 
+
+ 
+
+ /* 
+ form section */
+.form-section {
+    display: flex;
+    height: 700px;
+    margin-left:20% ;
+    margin-right: 20%;
+    background-color: greenyellow;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+#form-section-one #form-image{
+    background-image: url(./images/form.JPG);
+    background-size: cover;
+    /* background-color: aqua; */
+    height: 600px;
+
+    
+  
+}
+
+#form-section-one{
+    /* padding: 20px; */
+    width: 50%;
+}
+.form-section-two{
+    background-color: #070f2B;
+     padding-top: 8px; 
+    height: 600px;
+    width: 50%;
+    padding-left: 8%;
+
+}
+.form-top{
+    display: flex; 
+    
+    margin-left: 60%;
+}
+
+.form-top input{
+    height: 30px;
+    width:80px;
+}
+
+.form-top-one{
+    border-radius: 0 10px 10px 0;
+
+}
+.form-top-two{
+    border-radius: 0 10px 10px 0;
+
+}

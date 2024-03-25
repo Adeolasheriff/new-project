@@ -1,0 +1,618 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+     /* box-sizing: border-box;  */
+   
+    }
+    
+    
+    
+    
+    
+    body{
+        /* min-height: 100vh; */
+        font-family: sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+.top-nav{
+    display: flex;
+    background-color: blue; 
+    height: 55px;
+   
+}
+
+.first-nav{
+    display: flex;
+     margin-left:200px ; 
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    margin-top: 10px;
+    
+ 
+  
+}
+.first-span{
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+}
+/* second nav */
+
+.second-nav{
+    display: flex;
+    height: 55px;
+    background-color: #fff;
+
+
+}
+
+
+.first-list{
+    margin-left: 49px;
+   padding: 10px;
+}
+
+
+.list{
+    display: flex;
+}
+
+.product{
+    list-style: none;
+    display: flex;
+ position: absolute;
+ right: 50px;
+}
+.second-nav h1{
+    font-size: 27px;
+    margin-left: 200px;
+   
+}
+
+.product li{
+    margin: 10px;
+}
+
+.product li:hover{
+    background-color: blueviolet;
+}
+.background-image{
+    background-image: linear-gradient(to left,rgba(255, 255, 255, 0.078),gray),
+     url(./image/she.JPG);
+    height: 75vh;
+    background-size: cover;
+     /* background-position: ter;  */
+}
+.background-image h2{
+    color:  blue;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    font-size: 40px;
+    text-transform: uppercase;
+    animation-name: design;
+    animation-duration: 1s;
+    transition: all 1s;
+   
+    animation-iteration-count: 2;
+   
+}
+.background-image p {
+    color: #fff;
+    position: relative;
+    top: 53%;
+    left: 18%;
+    color:  blue;
+    font-size: 30px;
+
+    
+    animation-name: designn;
+    animation-duration: 1s;
+    transition: all 1s;
+   
+    animation-iteration-count: 2;
+   
+        
+}
+
+/* another heading */
+
+.second{
+    background-color:blue ;
+    padding: 20px 0; 
+   
+}
+.second-heading {
+    margin: 60px;
+    height: 15vh;
+   line-height: 2.5;
+}
+
+
+.second-heading-button{
+     display: flex; 
+     color: #fff;
+}
+.second-heading h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.second-heading p{
+font-size: 20px;
+
+}
+.second-h2{
+padding: 0 150px;
+  
+}
+.first-btn{
+   display: block; 
+     padding: 0 13px; 
+    color: black;
+     margin-left: 30px; 
+    background-color: yellow; 
+   
+}
+
+
+
+/* services pages */
+
+
+
+
+.first-heading{
+    
+    margin: 40px;
+}
+
+.first-heading h3{
+    text-align: center;
+    line-height: 2;
+    font-size: 30px;
+    font-weight: 400;
+   text-transform: capitalize;
+   color: blue;
+}
+.first-heading p{
+    padding: 0 40px;
+    text-align: center;
+   
+}
+.first-list{
+    display: flex;
+  margin: 50px;
+
+}
+.list1{
+    color: blue;
+    margin-left: 40px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.first-list p{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.5;
+    
+}
+
+/* .organisation */
+.organisation{
+    text-align: center;
+  
+   
+ 
+   
+}
+.organisation p{
+     margin-bottom: 10px;
+}
+.organisation h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: blue;
+    
+
+}
+.continue{
+    display: flex;
+    margin: 100px;
+    height:370px;
+}
+.con h5{
+    margin-bottom: 30px; 
+    margin-left: 20px;
+    line-height: 1.4;
+    font-size: 15px;
+    font-style: italic;
+    color:rgba(0, 0, 0, 0.372);
+     margin-left: 120px; 
+
+}
+.con li{
+    /* margin-left: 20px; */
+    list-style: none;
+    line-height: 0.8;
+
+    margin-left: 120px
+}
+
+.back{
+    height: 270px;
+    margin-right: 30px;
+   
+}
+.orgs{
+    background-color: aliceblue;
+}
+.learn{
+    background-color: yellow;
+    position: relative;
+    left: 125px;
+    top: 40px;
+    padding: 10px 15px;
+
+}
+.learn:hover{
+    background-color: pink;
+}
+
+
+/* jjjjj */
+
+.program{
+    display: flex; 
+     margin: 20px; 
+     padding: 0 30px; 
+   
+}
+.program-h2{
+     margin: 30px; 
+    padding: 0 20px; 
+}
+.program h2{
+     margin-bottom: 20px; 
+    color:blue;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+/* dgdggdgdg<h5 */
+
+.contact{
+    display: flex;
+    margin: 30px;
+
+}
+.contact-li{
+    list-style: none;
+  
+}
+
+/*  */
+.comeback{
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+.come{
+    display: flex;
+}
+
+.com h3{
+    color: blue;
+    
+}
+.com p{
+    font-size: 15px;
+}
+.com{
+    margin: 24px;
+}
+
+/*  */
+
+.c-li{
+    border: 5px solid rgba(0, 0, 0, 0.125); 
+    margin-bottom: 8px;
+}
+
+.information-details{
+   display: flex; 
+   padding:  50px 20px ;
+   justify-content: space-between; 
+  
+
+}
+.information{
+    
+    height: auto;
+    margin: 88px;
+   
+   
+}
+h4{
+    font-size: 19.5px;
+    font-style: italic;
+    color: yellow;
+    margin-bottom: 30px;
+}
+li{
+    list-style: none;
+    line-height: 1.7;
+}
+.informations{
+    background-color: rgba(0, 115, 255, 0.964);
+   
+}
+
+.information-design{
+    display: flex;
+    padding: 0 16px;
+    justify-content: space-around;
+   
+
+}
+.information-design span{
+    color: #fff;
+    font-style: italic;
+    font-size: 17px;
+}
+
+
+.information-logo{
+    height: 20px;
+    margin: 4px;
+}
+
+
+
+
+/* 
+collectionn pgae */
+
+
+.side{
+    display: flex;
+    justify-content: space-around;
+}
+.side-li{display: 
+    flex;
+   
+    
+}
+
+.lii{
+    color: black;
+    margin: 22px;
+}
+ .side-lii{
+     display:  flex; 
+} 
+
+    .side-h2{
+        font-size: 20px;
+        text-align: center;
+        padding: 50px 0;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .side-h3{
+     font-style: italic; 
+     text-transform: uppercase;
+     font-size: 26px; 
+     color: rgba(0, 0, 0, 0.448); 
+    }
+
+
+
+
+
+/* images */
+
+
+
+    .images{
+        display: flex;
+    gap: 90px; 
+    padding: 0 198px;
+    
+    }
+
+   .side-img{
+        width: 240px;
+        height: 250px;
+     }
+    
+    .h{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.448); 
+        font-style: italic;
+        margin: 6px;
+        font-weight: bolder;
+    }
+    .img-a{
+        color: rgba(0, 0, 0, 0.448); 
+        text-decoration: underline;
+        text-transform: uppercase;
+       
+    }
+
+    .img-a:hover{
+        background-color: yellowgreen;
+    }
+    .img-p{
+        font-size: 14px;
+        margin: 7px;
+        color: rgba(0, 0, 0, 0.448);
+    }
+
+    .book{
+        display: flex;
+         gap: 30px; 
+    padding: 0 80px; 
+        margin: 120px;
+      
+    }
+
+    .book-h2{
+        font-size: 17px;
+        color: rgba(0, 0, 0, 0.448); 
+        margin-bottom: 10px;
+    }
+    .book p {
+        color: rgba(0, 0, 0, 0.448); 
+      
+    }
+
+
+    .last-im{
+        display: flex; 
+       
+    } 
+
+    .la{
+        margin: 10px;
+        position: relative;
+        left:200px;
+        top:-70px;
+        padding: 0 20px;
+        height: 250px;
+    }
+
+    .iconss{
+        position: relative;
+        left: 50px;
+       
+      
+    }
+
+    .book-background{
+        background-color:rgba(0, 0, 0, 0.116); }
+    
+
+.shop-btn{
+    position: relative;
+    top: -61px;
+    right: 60px;
+    color: black;
+}
+
+.shop-btn:hover{
+    background-color: darkorange;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+
+
+    @keyframes design {
+        0%{
+            opacity: 0;
+            transform: translateX(29px);
+        }
+
+        50%{
+            opacity: 1;
+               transform: rotateX(180deg);   
+        }
+
+        100%{
+            
+            transform: translateX(-30px);
+        }
+    }
+
+
+    @keyframes designn {
+        0%{
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        50%{
+            opacity: 1;
+               transform: rotateX(90deg);   
+        }
+
+        100%{
+            
+            transform: translateY(20px);
+        }
+    }
+
+
+    /* icons */
+
+    .alarm{
+      position: relative;
+      top: -15px;
+      left: 22px;
+      height: 70px;
+    }
+    .phone{
+        position: relative;
+        right: -395px;
+        height: 18px;
+        top: 4px;
+        border-radius: 40px;
+    }
+
+    .photos{
+        position: relative
+        ;
+        border-radius: 60px;
+        top: 6px;
+        height: 12px;
+        left: -5px;
+    }
+    .strategy-logo{
+        height: 70px;
+        position: relative;
+        left: 15px;
+    }
+
+    .analystics-logo{
+        height: 80px;
+        position: relative;
+        left: 9px;
+    }
+    .creative{
+        position: relative;
+        left: 7px;
+    }
+    .support{
+        height: 68px;
+    }
+
+    .li-icon{
+        position: relative;
+        top: 20px;
+        right: -84px;
+    }
+ 
