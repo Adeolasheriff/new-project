@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // spread
+        // array
+        
+        const first = [1,2,3,4];
+        const second = [5,6,7,8]
+        const combine = first.concat(second)
+        document.body.innerHTML=combine
+
+        const join = [ ...first,...second,8,10]
+        console.log(join)
+
+const one = {
+    id:1,
+    name:"adeola",
+    address:"lagos",
+}
+const two = {
+    id:2,
+    nam:"james",
+    add: "ogun"
+} 
+
+
+
+const three = {...one,...two,country:"nigeria"}
+console.log(three)
+
+
+
+     const o = {name:'kantee'}
+     const t = {add:'lag'}
+     const a = {...o,...t,age:20}
+     console.log(a)
+
+// Map
+     const colors =["red",'green','blue','white'];
+       
+        const item = colors.map((colors)=> `<li> ${colors} </li>` )
+        console.log(item)
+
+        // filter
+        const jobs = [
+            {id:1,isActive:true},
+            {id:2,isActive:false},
+            {id:3,isActive:true},
+
+        ]
+         const activejobs = jobs.filter((jobs)=>jobs.isActive)
+         console.log(activejobs)
+        // document.body.innerHTML=item
+
+        // array
+        let name = ['joy','jessica','joy','john','joy','job'];
+        const active = name.filter((name)=>name != "joy")
+        console.log(active)
+
+ const y = ['ytyty','ytytyt']
+ const r=['yadxxc','mcnvxcxv']
+ const joi = y.concat(r)
+ console.log(joi)
+    </script>
+</body>
+</html>

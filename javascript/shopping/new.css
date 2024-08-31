@@ -1,0 +1,85 @@
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 60px;
+   
+    animation: b 1s infinite;
+}
+
+
+.i{
+    width: 30%;
+}
+
+.card{
+    position: fixed;
+    background-color: blanchedalmond;
+    left: 100%;  
+     /* left: calc(100% - 500px);  */
+    top: 0;
+    width: 500px;
+    height: 100vh;
+}
+
+.card-checkout {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    bottom: 0;
+    position: absolute;
+    gap: 250px;
+background-color: crimson;
+width: 500px;
+height: 130px;
+}
+.close-shopping{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.quantity{
+    background-color: red;
+    padding: 0 20px;
+    border-radius: 50%;
+    top: 0;
+    position: absolute;
+}
+
+
+
+.active .card{
+    left: calc(100% - 500px);
+}
+
+.active .container{
+    transform: translateX(-200px);
+}
+header .shoping{
+    position: relative;
+    text-align: right;
+}
+
+
+@keyframes b{
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(-5px,5px);
+    }
+
+    50% {
+        transform: translate(5px,-5px);
+    } 
+    75% {
+        transform: translate(-5px,5px);
+    }
+    100% {
+        transform: translate(0);
+    }
+
+}
