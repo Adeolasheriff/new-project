@@ -258,7 +258,7 @@ export default function Header() {
             <AppBar position="fixed" open={open}>
                 <Toolbar style={{ background: '#F5F5F5' }}>
                     <Typography variant="h6" noWrap component="div" className='me-5 text-dark'>
-                        Persistent drawer
+                        Persistent
                     </Typography>
                     <IconButton
                         color="dark"
