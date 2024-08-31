@@ -11,7 +11,7 @@ export default function Contact() {
                 <h3 className='text-center text-primary fst-italic mt-3 mb-3'>Contact</h3>
                 <div className="row row-gap-5">
                     <div className="col-sm-12 col-lg-6 col-md-12">
-                        <div className="row row-gap-5">
+                        <div className="row row-gap-5 ms-5">
                             <div className="col-sm-12 col-md-6 col-lg-6">
                                 <div className="bg-white p-3" style={{ width: "80%" }}>
                                     <div className='text-center'>
@@ -55,11 +55,12 @@ export default function Contact() {
                     </div>
 
                     <div className="col-sm-12 col-lg-6 col-md-12">
+
                         <form action="/contact">
                             <div className='bg-white p-5'>
                                 <div className='d-flex gap-4 mb-4' style={{flexWrap:'wrap'}}>
-                                    <input type="text" placeholder='Name' className='pb-3 ' required />
-                                    <input type="email" placeholder='Your email' className='pb-3 ps-5' required />
+                                    <input type="text" placeholder='Name' className='w-100' required />
+                                    <input type="email" placeholder='Your email' className='w-100 pb-3 mt-2' required />
                                 </div>
                                    <input type="text" placeholder='Subject' className='w-100 mt-3 pb-2' required />
 
@@ -68,6 +69,7 @@ export default function Contact() {
                                    <button className='btn btn-success rounded mt-5' style={{width:"100%"}}> Send messages</button>
                             </div>
                         </form>
+                        
                     </div>
                 </div>
             </div>
